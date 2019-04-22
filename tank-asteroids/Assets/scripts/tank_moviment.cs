@@ -18,6 +18,7 @@ public class tank_moviment : MonoBehaviour {
     public float timerShot = 0;
     public float limitscaleShot = 0.3f;
 
+
     // Use this for initialization
     void Start () {
 	}
@@ -32,15 +33,13 @@ public class tank_moviment : MonoBehaviour {
         cannonMove();
 
         topCannonMove();
-
-        Debug.Log("setas: " + Input.GetKey(KeyCode.LeftArrow));
-        Debug.Log("setas: " + Input.GetKey(KeyCode.RightArrow));
-
-        timerShot = timerShot < 1.5f && timerShot > 0 ? timerShot + Time.deltaTime : 0;
-        if (Input.GetKeyDown(KeyCode.Space) && timerShot == 0 && transform.localScale.x > limitscaleShot)
+        //timerShot = timerShot < 1.5f && timerShot > 0 ? timerShot + Time.deltaTime : 0;
+        if (Input.GetKeyDown(KeyCode.Space) )
+            //&& timerShot == 0)
         {
             timerShot += Time.deltaTime;
             Instantiate(shot, posShot.transform.position, posShot.transform.rotation);
+            shot.transform.localScale = transform.localScale/3;
 
         }
     }
