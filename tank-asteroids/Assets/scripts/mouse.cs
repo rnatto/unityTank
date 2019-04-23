@@ -20,6 +20,7 @@ public class mouse : MonoBehaviour
 
     private void OnMouseDrag()
     {
+
         transform.position = CoordMouseNoMundo() + deslocamento;
     }
 

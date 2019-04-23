@@ -8,6 +8,7 @@ public class camera : MonoBehaviour
     public Vector3 distancia;
     public float atraso;
     private int inverte;
+    public float velocidadeY;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +22,21 @@ public class camera : MonoBehaviour
 
         transform.position = Vector3.Lerp(transform.position, posicaoCamera, atraso);
         transform.LookAt(tank);
+
+        if (Input.GetKey(KeyCode.Q) && transform.localScale.x < 2)
+        {
+            if(distancia.y >= 3)
+            {
+                distancia.y -= velocidadeY;
+            }
+        }
+
+        if (Input.GetKey(KeyCode.E) && transform.localScale.x > 0.2f)
+        {
+            if (distancia.y <= 6)
+            {
+                distancia.y += velocidadeY;
+            }
+        }
     }
 }

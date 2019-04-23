@@ -15,7 +15,6 @@ public class tank_moviment : MonoBehaviour {
     float velRotacao = 0.5f;
     public float velCannonUp = 1;
     public float velCannonDown = 1;
-    public float timerShot = 0;
     public float limitscaleShot = 0.3f;
 
 
@@ -33,11 +32,8 @@ public class tank_moviment : MonoBehaviour {
         cannonMove();
 
         topCannonMove();
-        //timerShot = timerShot < 1.5f && timerShot > 0 ? timerShot + Time.deltaTime : 0;
         if (Input.GetKeyDown(KeyCode.Space) )
-            //&& timerShot == 0)
         {
-            timerShot += Time.deltaTime;
             Instantiate(shot, posShot.transform.position, posShot.transform.rotation);
             shot.transform.localScale = transform.localScale/3;
 
@@ -91,14 +87,14 @@ public class tank_moviment : MonoBehaviour {
 
     private void scalePower()
     {
-        if (Input.GetKey(KeyCode.Q) && transform.localScale.x < 2)
+        if (Input.GetKey(KeyCode.Q) && transform.localScale.x < 0.8f)
         {
-            transform.localScale += new Vector3(0.01f, 0.01f, 0.01f);
+            transform.localScale += new Vector3(0.02f, 0.02f, 0.02f);
         }
 
-        if (Input.GetKey(KeyCode.E) && transform.localScale.x > 0.2f)
+        if (Input.GetKey(KeyCode.E) && transform.localScale.x >= 0.4f)
         {
-            transform.localScale += new Vector3(-0.01f, -0.01f, -0.01f);
+            transform.localScale += new Vector3(-0.02f, -0.02f, -0.02f);
         }
     }
 }
