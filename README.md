@@ -19,7 +19,6 @@ Trabalho 2:
 
 4) Inserir um ou mais objetos com transparência - a pensar
 
-5) Utilizar ao menos dois sistemas de partículas (fogo, nuvens, explosão, disparo de projétil, etc) - tiro e explosão (talvez névoa)
 
 6) Utilizar pelo menos uma iluminação do tipo point light - iluminação no tank apontando para frente
 
@@ -27,7 +26,6 @@ Trabalho 2:
 
 8) Utilizar pelo menos uma iluminação do tipo ambient light - cômodo fechado iluminado
 
-9) Utilizar pelo menos um material com mapeamento de texturas do tipo normal map, height map e occlusion - parede, chão e tank
 
 10) Utilizar pelo menos um emissive material - lâmpada no tank
 
