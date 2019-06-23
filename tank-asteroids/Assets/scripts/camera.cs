@@ -12,7 +12,7 @@ public class camera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        atraso = 1f;
+        atraso = 0.2f;
     }
 
     // LateUpdate is called after Update
@@ -22,21 +22,20 @@ public class camera : MonoBehaviour
 
         transform.position = Vector3.Lerp(transform.position, posicaoCamera, atraso);
         transform.LookAt(tank);
+        //if (Input.GetKey(KeyCode.Q) && transform.localScale.x < 2)
+        //{
+        //    if(distancia.y >= 3)
+        //    {
+        //        distancia.y -= velocidadeY;
+        //    }
+        //}
 
-        if (Input.GetKey(KeyCode.Q) && transform.localScale.x < 2)
-        {
-            if(distancia.y >= 3)
-            {
-                distancia.y -= velocidadeY;
-            }
-        }
-
-        if (Input.GetKey(KeyCode.E) && transform.localScale.x > 0.2f)
-        {
-            if (distancia.y <= 6)
-            {
-                distancia.y += velocidadeY;
-            }
-        }
+        //if (Input.GetKey(KeyCode.E) && transform.localScale.x > 0.2f)
+        //{
+        //    if (distancia.y <= 6)
+        //    {
+        //        distancia.y += velocidadeY;
+        //    }
+        //}
     }
 }

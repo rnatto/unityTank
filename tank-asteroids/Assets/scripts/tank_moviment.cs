@@ -27,7 +27,7 @@ public class tank_moviment : MonoBehaviour {
 	void Update () {
         move();
 
-        scalePower();
+        //scalePower();
 
         cannonMove();
 
