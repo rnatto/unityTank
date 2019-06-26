@@ -19781,7 +19781,7 @@ GameObject:
   - component: {fileID: 3778018113389231933}
   - component: {fileID: 3778018113389231932}
   m_Layer: 0
-  m_Name: Tank
+  m_Name: Tank 2
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19865,7 +19865,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3778018113481245334}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.504, y: 0, z: -0}
+  m_LocalPosition: {x: 1.348, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 0.9998276}
   m_Children: []
   m_Father: {fileID: 3778018114511521592}
@@ -19933,7 +19933,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 313ab97d57f5d6c4b8ed0aa1b6eecbc7, type: 2}
+  - {fileID: 2100000, guid: 1c7b1c321cc687c4aa365b9ae9b1300a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

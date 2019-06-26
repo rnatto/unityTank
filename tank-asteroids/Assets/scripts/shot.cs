@@ -5,6 +5,9 @@ using UnityEngine;
 public class shot : MonoBehaviour
 {
     public float velShot;
+    public GameObject explosionPrefab;
+	public Transform explosionPoint;
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +26,15 @@ public class shot : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
-        if (collision.gameObject.tag != "Player")
+        if (collision.gameObject.tag == "Player")
         {
+			ContactPoint contact = collision.contacts[0];
+			Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
+			Vector3 pos = contact.point;
+			Instantiate(explosionPrefab,  collision.gameObject.transform.position, collision.gameObject.transform.rotation);
+	        Destroy(this.gameObject);
+
+        }else{
             Destroy(this.gameObject);
         }
     }

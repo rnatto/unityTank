@@ -32,7 +32,7 @@ public class tank_moviment : MonoBehaviour {
         cannonMove();
 
         topCannonMove();
-        if (Input.GetKeyDown(KeyCode.Space) )
+        if (Input.GetKeyDown(KeyCode.Return) )
         {
             Instantiate(shot, posShot.transform.position, posShot.transform.rotation);
             shot.transform.localScale = transform.localScale/3;
@@ -67,19 +67,19 @@ public class tank_moviment : MonoBehaviour {
 
     private void move()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.I))
         {
             transform.Translate(0.1f, 0, 0);
         }
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.K))
         {
             transform.Translate(-0.1f, 0, 0);
         }
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.J))
         {
             transform.Rotate(0, -5, 0);
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.L))
         {
             transform.Rotate(0, 5, 0);
         }
