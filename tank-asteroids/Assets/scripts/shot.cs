@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿// Renato Barbosa Candido - 1749978
+// João Carlos Pirolo Filho - 1063898
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
