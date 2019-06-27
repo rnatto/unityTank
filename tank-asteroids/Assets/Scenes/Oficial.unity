@@ -7296,11 +7296,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3778018113389231931, guid: fcc2f5154e0e35147b1e06acbcc1608d,
-        type: 3}
-      propertyPath: m_Name
-      value: Tank
-      objectReference: {fileID: 0}
     - target: {fileID: 3778018113389231930, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7371,6 +7366,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3778018113389231931, guid: fcc2f5154e0e35147b1e06acbcc1608d,
+        type: 3}
+      propertyPath: m_Name
+      value: Tank
+      objectReference: {fileID: 0}
     - target: {fileID: 8490553775924184831, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
       propertyPath: m_RootOrder
@@ -7429,17 +7429,17 @@ PrefabInstance:
     - target: {fileID: 5283013545949153348, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 6.489658e-36
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5283013545949153348, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1.4e-44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5283013545949153348, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 2.3510647e-38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1365101758752652081, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
@@ -7504,22 +7504,22 @@ PrefabInstance:
     - target: {fileID: 40021903092268026, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 2.8642813e+35
+      value: 8.88e-43
       objectReference: {fileID: 0}
     - target: {fileID: 40021903092268026, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -2.832775e-35
+      value: -2.2874735e+17
       objectReference: {fileID: 0}
     - target: {fileID: 40021903092268026, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1.0118015
+      value: 4.5905e-41
       objectReference: {fileID: 0}
     - target: {fileID: 40021903092268026, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: -113352820
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2147881431765749102, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
@@ -9706,11 +9706,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3778018113389231931, guid: fcc2f5154e0e35147b1e06acbcc1608d,
-        type: 3}
-      propertyPath: m_Name
-      value: Tank p2
-      objectReference: {fileID: 0}
     - target: {fileID: 3778018113389231930, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9780,6 +9775,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778018113389231931, guid: fcc2f5154e0e35147b1e06acbcc1608d,
+        type: 3}
+      propertyPath: m_Name
+      value: Tank p2
       objectReference: {fileID: 0}
     - target: {fileID: 4873941662679083129, guid: fcc2f5154e0e35147b1e06acbcc1608d,
         type: 3}
