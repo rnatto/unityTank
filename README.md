@@ -40,7 +40,7 @@ return (enter) - atirar
 
 10) Utilizar pelo menos um emissive material - lâmpada no tank e cubos alvo espalhados pela cena
 
-11) Utilizar pelo menos um post processing effect - 
+11) Utilizar pelo menos um post processing effect - chromatic aberracion aplicado ao entrar no galpão somente com o tank da área externa. é possivel comparar a diferença na renderização com a câmera dos dois tanks
 
 12) Utilizar pelo menos um raycast - destroi blocos ao mirar neles com o canhão
 
